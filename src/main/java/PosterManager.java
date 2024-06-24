@@ -4,11 +4,11 @@ public class PosterManager {
     private final int limit; // переменная количества фильмов
 
     public PosterManager(int limit) {// Конструктор без указания параметров
-        this.limit = limit; // переменная количества фильмов
+        this.limit = limit; // переменнаяколичества фильмов
     }
 
     public PosterManager(){ // Конструктор с указанием параментов
-        this.limit = 7; // переменная количества фильмов
+        this.limit = 5; // переменная количества фильмов
     }
 
     public void add(String newMovie){ // метод добавления нового фильма

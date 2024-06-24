@@ -46,7 +46,7 @@ public class PosterManagerTest {
         manager.add(nameMovie6);
         manager.add(nameMovie7);
 
-        String[] expected = {nameMovie7, nameMovie6, nameMovie5, nameMovie4, nameMovie3, nameMovie2, nameMovie1};
+        String[] expected = { nameMovie7, nameMovie6, nameMovie5, nameMovie4, nameMovie3 };
         String[] actual = manager.findLast();
 
         Assertions.assertArrayEquals(expected, actual);
